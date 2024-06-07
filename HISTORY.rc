@@ -28,10 +28,10 @@ EXPID:  ./OutputDir/GEOSChem
 # your own customized diagnostic collections as well.
 #==============================================================================
 COLLECTIONS: 'Restart',
-             'Metrics',
-             'SpeciesConc',
+             #'Metrics',
+             #'SpeciesConc',
              #'AdvFluxVert',
-             #'AerosolMass',
+             'AerosolMass',
              #'Aerosols',
              ##'Budget',
              ##'CloudConvFlux',
@@ -138,8 +138,8 @@ COLLECTIONS: 'Restart',
 # Available for full-chemistry and aerosol-only simulations
 #==============================================================================
   AerosolMass.template:       '%y4%m2%d2_%h2%n2z.nc4',
-  AerosolMass.frequency:      00000100 000000
-  AerosolMass.duration:       00000100 000000
+  AerosolMass.frequency:      00000000 010000
+  AerosolMass.duration:       00000001 000000
   AerosolMass.mode:           'time-averaged'
   AerosolMass.fields:         'AerMassASOA                  ',
                               'AerMassBC                    ',

@@ -135,8 +135,8 @@ METDIR:   /public3/home/sc33074/data/ExtData/GEOS_2x2.5/GEOS_FP
 #                                                    --Lee Murray (16 Jan 2019)
 #==============================================================================
 (((LightNOx
-* FLASH_DENS $ROOT/OFFLINE_LIGHTNING/v2020-03/$MET/$YYYY/FLASH_CTH_$MET_0.25x0.3125_$YYYY_$MM.nc4  LDENS 1980-2021/1-12/1-31/0-23/+90minute RFY3 xy  1  * -  1 1
-* CONV_DEPTH $ROOT/OFFLINE_LIGHTNING/v2020-03/$MET/$YYYY/FLASH_CTH_$MET_0.25x0.3125_$YYYY_$MM.nc4  CTH   1980-2021/1-12/1-31/0-23/+90minute RFY3 xy  1  * -  1 1
+* FLASH_DENS $ROOT/OFFLINE_LIGHTNING/v2023-03/$MET/$YYYY/FLASH_CTH_$MET_0.25x0.3125_$YYYY_$MM.nc4  LDENS 2014-2022/1-12/1-31/*/+90minute C xy  1  * -  1 1
+* CONV_DEPTH $ROOT/OFFLINE_LIGHTNING/v2023-03/$MET/$YYYY/FLASH_CTH_$MET_0.25x0.3125_$YYYY_$MM.nc4  CTH   2014-2022/1-12/1-31/*/+90minute C xy  1  * -  1 1
 )))LightNOx
 
 ### END SECTION BASE EMISSIONS ###
